@@ -13,7 +13,6 @@ describe('bubbleSort', function() {
   });
 });
 describe('swap', function() {
-  var arr = [];
   it('Devuelve correctamente cuantas veces fue llamado', function() {
     spyOn(window, 'swap').and.callThrough();
     bubbleSort([5, 1, 2, 4]);
